@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base Gym</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="container mt-3 mb-2">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="mb-0"><strong>Base Gym</strong></h1>
+            </div>
+            <div class="col-md-6">
+                <form class="d-flex float-md-end">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <hr class="m-0">
+
+    <nav class="container my-2">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr class="m-0 mb-4">
+
+    <section class="container mb-5">
+        <div id="gymCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image1.jpg" class="d-block w-100" alt="Premium gym floor" style="height: 400px; object-fit: cover;">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="image2.jpg" class="d-block w-100" alt="Free weights area" style="height: 400px; object-fit: cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gymCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gymCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="container mb-5">
+        <h3 class="mb-4 text-center">Our Packages</h3>
+        
+        <div class="row g-4">
+            
+            <div class="col-md-4">
+                <div class="card border-dark h-100 text-center shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title fw-bold">Base Access</h4>
+                        <h3 class="mb-3">P250 <small class="text-muted fs-6">/ Month</small></h3>
+                        <p class="card-text mb-4">Unrestricted access to the main weight room and cardio equipment during standard hours.</p>
+                        <a href="packages.html" class="btn btn-outline-dark mt-auto">VIEW DETAILS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-dark h-100 text-center shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title fw-bold">Functional Mastery</h4>
+                        <h3 class="mb-3">P350 <small class="text-muted fs-6">/ Month</small></h3>
+                        <p class="card-text mb-4">Includes Base Access plus entry into the specialized functional training and calisthenics zones.</p>
+                        <a href="packages.html" class="btn btn-outline-dark mt-auto">VIEW DETAILS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-dark h-100 text-center shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title fw-bold">Premium Optimization</h4>
+                        <h3 class="mb-3">P500 <small class="text-muted fs-6">/ Month</small></h3>
+                        <p class="card-text mb-4">Full facility access, locker room privileges, and one complimentary personal training session.</p>
+                        <a href="packages.html" class="btn btn-outline-dark mt-auto">VIEW DETAILS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-dark h-100 text-center shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title fw-bold">The Syndicate</h4>
+                        <h3 class="mb-3">P1,200 <small class="text-muted fs-6">/ Month</small></h3>
+                        <p class="card-text mb-4">Full Premium access for three individuals training together. Build resilience with your squad.</p>
+                        <a href="packages.html" class="btn btn-outline-dark mt-auto">VIEW DETAILS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-dark h-100 text-center shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title fw-bold">Elite Coaching</h4>
+                        <h3 class="mb-3">P1,500 <small class="text-muted fs-6">/ Month</small></h3>
+                        <p class="card-text mb-4">Premium access plus 3-days-a-week one-on-one personal training and custom programming.</p>
+                        <a href="packages.html" class="btn btn-outline-dark mt-auto">VIEW DETAILS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-dark h-100 text-center shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title fw-bold">Day Pass</h4>
+                        <h3 class="mb-3">P100 <small class="text-muted fs-6">/ Day</small></h3>
+                        <p class="card-text mb-4">24-hour access to the facility to experience the uncompromising Base Gym standard.</p>
+                        <a href="packages.html" class="btn btn-outline-dark mt-auto">VIEW DETAILS</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container mb-5 text-center px-md-5">
+        <h3 class="mb-4">Welcome to Your Journey</h3>
+        <p>
+            Whether your goal is to build strength, lose weight, or gain healthy mass, our gym is a judgment-free zone designed for everyone. We believe fitness is not a one size fits all experience.
+        </p>
+        <p>
+            Our customized plans cater to both beginners and experienced people, ensuring you get the support and equipment you need to transform your lifestyle.
+        </p>
+    </section>
+
+    <hr class="container">
+
+    <section class="container mb-5 mt-4">
+        <div class="row text-center g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Testimonial</h5>
+                        <p class="card-text">"I always felt intimidated by gyms, but the trainers here helped me gain confidence and reach my healthy weight goals!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Testimonial</h5>
+                        <p class="card-text">"An amazing facility with tailored programs for people like me who needed to build muscle safely."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Testimonial</h5>
+                        <p class="card-text">"The best decision I've made for my health. The community is incredibly supportive."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light py-4 border-top mt-5">
+        <div class="container text-center mb-4">
+            <div class="row">
+                <div class="col-md-6 border-end border-dark">
+                    <p class="mb-0 fw-bold">Contact: +267 71807052</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="mb-0 fw-bold">Email: support@basegym.co.bw</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container text-center">
+            <p class="mb-0 small fw-bold">Copyright @Yash</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
